@@ -59,17 +59,40 @@
 /*名称分数容器*/
 .dataContainer{
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  align-items: baseline ;
+  flex-direction: row;
+  flex-grow: 3;
   padding-left: 3%;
+  justify-content: space-between;
+
 }
 .score{
     font-size: 12pt;
-
-
+    color: orange;
+}
+.rating {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 124px;
+    height: 19px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    position: relative;
+    background: "resources/star.png"
+}
+.ratingContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline ;
+    flex-direction: row;
+    padding-right: 10%;
 }
 .title{
     font-size: 12pt;
+    padding-top: 5%;
 
 }
 .backgroundContainer{

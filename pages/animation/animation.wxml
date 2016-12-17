@@ -10,7 +10,11 @@
                 <image class="imageContainer" mode="scaleToFill" src="{{item.imageUrl}}"></image>
                 <view class="dataContainer">
                    <view class="title">{{item.name}}</view>
-                   <view class="score">{{item.scores}}</view>
+                   <view class="ratingContainer">
+                     <view class="rating"></view>
+                     <view class="score">{{item.scores}}</view>
+                   </view>
+                   
                 </view>
             </view>
         </block>
