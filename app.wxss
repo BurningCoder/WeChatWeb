@@ -63,12 +63,20 @@
   flex-direction: row;
   flex-grow: 3;
   padding-left: 3%;
+  flex-wrap:wrap;
   justify-content: space-between;
-
+  /*background-color: cornflowerblue;*/
 }
 .score{
     font-size: 12pt;
     color: orange;
+}
+.scores{
+    position:absolute;
+    right:15px;
+    padding-top: 10%;
+    font-size: 9pt;
+    color: lightgray;
 }
 .rating {
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: flex-end;
     align-items: baseline ;
     flex-direction: row;
-    padding-right: 10%;
+    padding-right: 11%;
 }
 .title{
     font-size: 12pt;
