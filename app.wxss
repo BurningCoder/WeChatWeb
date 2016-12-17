@@ -8,3 +8,71 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+/*状态容器 */
+.statusContainer{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: center ;
+  background-color:  aquamarine;
+  align-items: flex-start;
+  justify-content: space-around;
+} 
+/*状态按钮样式 */
+.status{
+  height: 7vh;
+  line-height: 7vh;
+  width: 100%;
+  font-size: 13pt;
+  /*display: flex;*/
+  text-align: center;
+  background-color:  white;
+}
+/*列表样式容器 */
+.detailContainer{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+
+}
+/*时间容器*/
+.dateContainer{
+  font-size: 11pt;
+  background-color: #f3f3f3;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+/*图片容器样式 */
+.imageContainer{
+  background-size: 100% 100%; 
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 80px; 
+  height: 112px; 
+  float: left; 
+}
+/*名称分数容器*/
+.dataContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3%;
+}
+.score{
+    font-size: 12pt;
+
+
+}
+.title{
+    font-size: 12pt;
+
+}
+.backgroundContainer{
+    background-color: #f3f3f3;
+
+}

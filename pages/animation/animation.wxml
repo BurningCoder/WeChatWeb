@@ -1,0 +1,19 @@
+<view class="statusContainer">
+    <view class="status">正在热映</view>
+    <view class="status">即将上映</view>
+</view>
+<view class="backgroundContainer">
+    <block wx:for="{{listArray}}" wx:for-index="idx" wx:for-item="item" wx:key="unique">
+        <view class="dateContainer">{{item.date}}</view>
+        <block wx:for="{{item.items}}" wx:for-index="idx" wx:for-item="item" wx:key="unique">
+            <view class="detailContainer" bindtap="didSelected"> 
+                <image class="imageContainer" mode="scaleToFill" src="{{item.imageUrl}}"></image>
+                <view class="dataContainer">
+                   <view class="title">{{item.name}}</view>
+                   <view class="score">{{item.scores}}</view>
+                </view>
+            </view>
+        </block>
+    </block>
+</view>
+

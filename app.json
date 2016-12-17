@@ -1,12 +1,48 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+     "pages/film/film",
+     "pages/tv/tv",
+     "pages/animation/animation",
+     "pages/game/game"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+  "window": {
+    "navigationBarTextStyle": "black", 
+    "navigationBarBackgroundColor": "#f5f5f5", 
+    "navigationBarTitleText": "快CTO", 
+    "backgroundColor": "#f4f4f4", 
+    "enablePullDownRefresh": true, 
+    "backgroundTextStyle": "light"
+  }, 
+  "tabBar": {
+    "color": "#7F8389", 
+    "selectedColor": "#09BB07", 
+    "borderStyle": "black", 
+    "list": [
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath":"pages/film/film",
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "电影"
+      }, 
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath": "pages/tv/tv", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "电视剧"
+      },
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath": "pages/animation/animation", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "动漫"
+      },
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath": "pages/game/game", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "游戏"
+      }
+    ], 
+    "backgroundColor": "white"
+  } 
 }
