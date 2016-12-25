@@ -1,0 +1,70 @@
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    /*column*/
+}
+.coverArea{
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+}
+.imageArea{
+  background-size: 100% 100%; 
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 96px; 
+  height: 134px; 
+  float: left; 
+}
+.nameText{
+  padding-top: 5%;
+  font-size: 12pt;
+  /*color: grey;*/
+  text-align: left;
+ 
+}
+.descArea{
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.descText{
+  font-size: 11pt;
+  margin-bottom: 3%;
+  color: gray;
+  text-align: left;
+}
+.commentArea{
+    flex-direction: row;
+    align-items:baseline;
+    display: flex;
+
+}
+.coverImage{
+    background-size: 100% 100%; 
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+.coverArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+}
+
+.coverContainer{
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    width: 60px; 
+    height:60px; 
+    padding-bottom: 1%;
+}
+.cover{
+    width: 100%; 
+    height:100%;  
+}

@@ -1,0 +1,28 @@
+<view >
+
+        <view class="coverArea">
+            <image src="{{image}}" 
+            class="imageArea" 
+            mode="scaleToFill">
+            </image>
+ 
+            <view class="contentArea">
+                <text class="nameText">{{name}}</text>
+                <text class="descText">动作 犯罪</text>
+                <text class="descText">美国 13集</text>
+                <text class="descText">2015年 12月29日 首播</text>
+            </view> 
+        </view>
+      
+</view>
+
+<view style="display:flex;flex-direction: column;">
+    <text class="body-text">导演及演员</text>
+</view>
+
+<view style="display:flex;flex-direction: column;">
+    <text class="body-text">剧情简介</text>
+</view>
+
+
+<button class="funButton"type="primary" bindtap="clickButton">发表影评</button>

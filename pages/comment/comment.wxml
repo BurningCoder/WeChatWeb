@@ -1,0 +1,11 @@
+<view class="scoreArea">
+  <view class="commentArea">
+    <input class="scoreInput" bindinput="bindKeyInput" placeholder="请输入您的评分" auto-focus type="number" maxlength="3"/>
+  </view>
+  <text class="tipst" >{{tips}}</text>
+  <view>
+    <textarea class="textContent" placeholder="输入内容"/>
+  </view>
+
+</view>
+<button class="funButton"type="primary" bindtap="clickButton" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}">发布</button>

@@ -1,9 +1,14 @@
 {
   "pages":[
+  
      "pages/film/film",
      "pages/tv/tv",
      "pages/animation/animation",
-     "pages/game/game"
+     "pages/game/game",
+     "pages/detail/detail",
+     "pages/comment/comment",
+     "pages/commentList/commentList",
+     "pages/descDetail/descDetail"
   ],
   "window": {
     "navigationBarTextStyle": "black", 

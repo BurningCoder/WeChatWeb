@@ -1,0 +1,34 @@
+.scoreArea{
+    display: flex;
+    flex-direction: column;
+    
+}
+.commentArea{
+    padding-top: 10%;
+    display:flex;
+    flex-direction:row;
+    padding-bottom: 5%;
+    align-items: baseline;
+}
+.scoreText{
+    font-size: 13pt;
+     color: gray;
+}
+.scoreInput{
+      width: 100%;  
+     height: auto;
+    text-align:center;
+    font-size: 14pt;
+    color: black;
+}
+.tipst{
+    text-align:center;
+    font-size: 12pt;
+    color: gray;
+    
+}
+.textContent{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}

@@ -1,0 +1,46 @@
+.commentArea{
+    display: flex;
+    flex-direction: column;
+}
+.nameArea{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row; 
+    align-items: baseline;
+    flex-wrap: nowrap;
+    /*justify-content:space-between;*/
+}
+.tapArea{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    /*justify-content:space-around;*/
+}
+.tapItem{
+    flex-grow: 1;
+    text-align: right;
+}
+.nameText{
+    font-size: 14pt;
+    padding-right: 2%;
+}
+.scoreText{
+    width: 50%;
+    height: 100%;
+    font-size: 12pt;
+    text-align: right;
+    color: orange;
+    flex-grow: 1; /* default 0 */
+}
+.contentText{
+    font-size: 12pt;
+    color: gray;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}

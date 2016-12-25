@@ -1,0 +1,55 @@
+<view name="desc">
+    <view class="body-text" 
+     style="padding-top: 2%;padding-bottom: 3%;padding-left: 5%;text-decoration: underline;"                 
+     bindtap="contentTap">简介
+     </view>
+    <view class ="contentContainer" bindtap="contentTap">
+        <view class="coverArea">
+            <image src="{{cover}}" 
+            class="imageArea" 
+            mode="scaleToFill">
+            </image>
+            <text class="nameText">{{name}}</text>
+        </view>
+        <view class="descArea">
+            <text class="descText">{{content}}</text>
+            <text class="descText">{{direct}}</text>
+            <text class="descText">{{roles}}</text>
+            <text class="descText">{{desc}}</text>
+        </view>    
+    </view>
+</view>
+
+<view name ="comment" style="padding-top: 5%;" >
+    <view class="body-text"
+     style="padding-top: 2%;padding-bottom: 3%;padding-left: 5%;text-decoration: underline;"                 
+     bindtap="commentTap">
+     评论评分
+     </view>
+     <view class="commentArea" bindTap="commentTap">
+        <text class="descText" style="padding-left: 5%;">{{scores}}</text>
+        <view>
+             <text class="descText">0位用户参与评论</text>
+        </view>
+        <text class="descText" style="padding-left:5%;color:orange;">{{score}}</text>
+
+     </view>
+
+
+</view>
+
+
+<view name ="cover" >
+    <view class="body-text"   style="padding-top: 2%;padding-bottom: 3%;padding-left: 5%;text-decoration: underline;" >相册</view>
+    <view class="coverArea">
+        <view class="coverContainer" wx:for="{{coverArray}}"wx:for-item="itemCover"><image         
+        src="{{itemCover}}"        
+        class="cover">
+        </image></view>
+  
+    </view>
+
+
+</view>
+
+<button class="funButton"type="primary" bindtap="clickButton" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}">发表影评</button>

@@ -1,0 +1,8 @@
+.coverArea{
+    display: flex;
+    flex-direction: row;
+}
+.contentArea{
+        display: flex;
+    flex-direction: column;
+}

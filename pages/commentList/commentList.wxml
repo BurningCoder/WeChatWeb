@@ -1,0 +1,28 @@
+<view></view>
+<block wx:for="{{list}}" wx:for-item="item">
+    <view class="commentArea">
+        <view class="nameArea" >
+        <text class="nameText">{{item.name}}</text>
+        <text class="body-text">{{item.date}}</text>
+        <text class="scoreText">{{item.score}}</text>
+        </view>
+        <text class="contentText">{{item.content}}</text>
+        <view class="tapArea">
+             <view>          
+                <icon type="success" size="15"/>
+                <text>{{item.favour}}</text>
+            </view>
+            <view>          
+                <icon type="success" size="15"/>
+                <text>{{item.unfavour}}</text>
+            </view>
+            <view class="tapItem">          
+                <icon type="success" size="15"/>
+                <text>{{item.comments}}</text>
+            </view>
+        </view>
+  
+    </view>
+</block>
+
+<button class="funButton"type="primary" bindtap="clickButton">发表影评</button>

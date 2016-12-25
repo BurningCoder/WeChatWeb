@@ -8,6 +8,29 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+/*全局内容文本样式 */
+.body-text{
+  font-size: 12pt;
+  color: grey;
+  text-align: left;
+}
+/*全局详情图片样式 */
+.imageArea{
+  background-size: 100% 100%; 
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 96px; 
+  height: 134px; 
+  float: left; 
+}
+/*通用按钮样式 */
+.funButton{
+  position:fixed;
+  bottom: 0;
+  left: 5%;
+  width: 90%;
+  /*background-color:gold;*/
+}
 /*状态容器 */
 .statusContainer{
   display: flex;
@@ -36,7 +59,8 @@
   background-color: white;
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 5%;
+  /*padding-left: 5%;
+  padding-right: -5%;*/
 
 }
 /*时间容器*/
@@ -52,6 +76,9 @@
   background-size: 100% 100%; 
   background-position: 0% 0%;
   background-repeat: no-repeat;
+  padding-left: 2%;
+  padding-top: 1%;
+  
   width: 80px; 
   height: 112px; 
   float: left; 
@@ -96,7 +123,7 @@
     justify-content: flex-end;
     align-items: baseline ;
     flex-direction: row;
-    padding-right: 11%;
+    padding-right: 10%;
 }
 .title{
     font-size: 12pt;
